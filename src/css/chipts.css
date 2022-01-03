@@ -1,0 +1,20 @@
+@import url("../css/colors.css");
+
+.chipitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  background-color: var(--textcolor);
+  border: 1px solid var(--colorprimary);
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.chipitem .title {
+  margin-right: 8px;
+  color: var(--colorprimary);
+}

@@ -1,0 +1,153 @@
+@import url("../css/colors.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+.contentinputmess {
+  margin-bottom: 15px;
+  background-color: var(--textcolor);
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  width: 100%;
+}
+
+.info > .inputs {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.info > .output {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.editcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: var(--colorprimary);
+  border: 1px solid var(--colorprimary);
+  box-sizing: border-box;
+  border-radius: 30px;
+  filter: drop-shadow(0px 3px 15px var(--colormediun2));
+}
+
+.elimcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border: 1px solid red;
+  box-sizing: border-box;
+  border-radius: 30px;
+  filter: drop-shadow(0px 3px 15px var(--colormediun2));
+}
+
+.onupdate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: var(--colorprimary);
+  border: 1px solid var(--colorprimary);
+  box-sizing: border-box;
+  border-radius: 30px;
+  filter: drop-shadow(0px 3px 15px var(--colormediun2));
+}
+
+.tippalclab {
+  margin-bottom: 10px;
+}
+
+.selectrender {
+  width: auto;
+  height: auto;
+  border: 2px solid var(--colorprimary);
+  border-radius: 20px;
+  text-align: center;
+  color: var(--colorprimary);
+  background-color: var(--textcolor);
+}
+
+.selectrender:focus {
+  outline: none;
+}
+
+.selectrender option {
+  color: var(--textcolor);
+  background-color: var(--colorprimary);
+}
+
+.lischip {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.lischip::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
+
+/*Inserinputmessege*/
+
+.infoinser .input {
+  width: 300px;
+  border: 1px solid var(--colorprimary);
+  background-color: white;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.insertpalclab {
+  width: 100%;
+  height: 30px;
+  background-color: var(--textcolor);
+  border: 2px solid var(--colorprimary);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.insertpalclab > .infoinserinputc {
+  background-color: transparent;
+  color: var(--texinputcolor);
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  width: 100%;
+  margin-right: 10px;
+  padding: 0px;
+  border: 0px solid white;
+}
+
+.insertpalclab > .infoinserinputc:focus {
+  outline: none;
+}

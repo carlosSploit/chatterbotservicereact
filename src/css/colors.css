@@ -1,0 +1,10 @@
+:root {
+  /*colors*/
+  --colorprimary: #7d3dcf;
+  --colormediun: #f5ea4e;
+  --colormediun2: rgba(125, 61, 207, 0.09);
+  --colorsecundary: #fcf546;
+  --textcolor: white;
+  --textcolorblack1: rgba(0, 0, 0, 0.52);
+  --texinputcolor: rgba(125, 61, 207, 0.49);
+}

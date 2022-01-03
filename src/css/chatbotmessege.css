@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import url("../css/colors.css");
+
+.chatbotmesseg {
+  margin-bottom: 15px;
+  background-color: var(--textcolor);
+  height: auto;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+}
+
+.chatbotmesseg .infochat {
+  width: 100%;
+}
+
+.chatbotmesseg .botonopccion {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbotmesseg .title {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.chatbotmesseg .code {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.chatbotmesseg .fecha {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.25);
+}
+
+/* .ondelect {
+  background-color: red;
+  border-radius: 15px;
+  border: 1px solid red;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.ondelect:hover {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+} */
+
+.ondelect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border: 1px solid red;
+  box-sizing: border-box;
+  border-radius: 30px;
+  filter: drop-shadow(0px 3px 15px var(--colormediun2));
+}
+
+@media (max-width: 820px) {
+  .chatbotmesseg {
+    width: 250px;
+  }
+}

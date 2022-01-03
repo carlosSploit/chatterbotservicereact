@@ -1,0 +1,132 @@
+@import url("../css/colors.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+.messegeemisor {
+  margin-bottom: 15px;
+}
+
+.contenedorme {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.perphoto {
+  width: 35px;
+  height: 35px;
+  min-height: 35px;
+  min-width: 35px;
+  background-color: blue;
+  border-radius: 18px;
+  background-image: url("../images/photochat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.messegeemisor > div > div > .contmessege {
+  display: flex;
+  align-items: center;
+  /* panding */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* ------------------------ */
+  font-size: 14px;
+  line-height: 15px;
+  background: #ffffff;
+  box-shadow: 0px 3px 15px var(--colormediun2);
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.messegeemisor > div > div > .hoursmess {
+  margin-top: 5px;
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: var(--texinputcolor);
+}
+
+.messegerecep > div > div > .contmessege {
+  display: flex;
+  align-items: center;
+  /* panding */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* ------------------------ */
+  font-size: 14px;
+  line-height: 15px;
+  background: #7d3dcf;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px var(--colormediun2);
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--textcolor);
+}
+
+.messegerecep > div > div > .hoursmess {
+  margin-top: 5px;
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: var(--texinputcolor);
+  margin-bottom: 10px;
+}
+
+.opccions {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.opccions > .opciten {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 15px;
+  background: var(--texinputcolor);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.opccions > .opciten > span {
+  margin-right: 10px;
+  font-size: 15px;
+  color: var(--textcolor);
+}
+
+.opccions > .opciten > div {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--textcolor);
+}

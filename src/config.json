@@ -1,0 +1,14 @@
+{
+    "repository":{
+        "remoto":{
+            "host":"https://chartbotapike.herokuapp.com",
+            "port":""
+        },
+        "local":{
+            "host": "https://localhost.com",
+            "port": ""
+        }
+        
+    },
+    "bd":{}
+}

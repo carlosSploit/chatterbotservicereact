@@ -1,0 +1,23 @@
+@import url("colors.css");
+
+.bottomsal {
+  background-color: var(--colorprimary);
+  color: var(--textcolor);
+  width: 200px;
+  height: 30px;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.inverbottomsal {
+  background-color: var(--textcolor);
+  color: var(--colorprimary);
+  display: inline-block;
+  height: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center;
+  border: 2px solid var(--colorprimary);
+  border-radius: 15px;
+}
